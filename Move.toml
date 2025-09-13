@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-basedMusicPlaylist"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x56d256091be9379be11526cc5bafb2bf70ec3bf9a505d5c2e8b52453bd3685c1"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
